@@ -42,5 +42,5 @@
     };
   };
 
-  users.extraGroups.docker.members = ["olu"];
+  users.extraGroups.docker.members = ["flizz"];
 }
