@@ -4,7 +4,7 @@
   ...
 }: {
   imports = [
-    ./common-fonts.nix
+    ./flizz-fonts.nix
     ./common-virt.nix
   ];
 
@@ -95,7 +95,7 @@
 
     guix
 
-    alsaUtils
+    alsa-utils
     binutils-unwrapped
     imagemagick
     sl
@@ -103,7 +103,9 @@
 
     lrzip
     p7zip
-    unrar
+    
+    #unfree
+    #unrar
 
     bcachefs-tools
     docker-compose
@@ -129,7 +131,8 @@
 
     polybarFull
 
-    gnome-disk-utility
+    # prefixed in 23.11
+    gnome.gnome-disk-utility
     gedit
     xed-editor
 

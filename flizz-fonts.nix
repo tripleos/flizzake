@@ -27,6 +27,8 @@ with lib; {
         ##unfree      corefonts
         ##unfree      vistafonts
 
+        ##unfree      symbola
+
         dejavu_fonts
         freefont_ttf
         gentium
@@ -67,7 +69,6 @@ with lib; {
         # lexend
 
         source-sans-pro
-        symbola
         ubuntu_font_family
 
         fira-code
